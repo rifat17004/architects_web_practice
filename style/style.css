@@ -69,7 +69,7 @@ banner related styles
 */
 
 .bannarDetails {
-  width: 850px;
+  max-width: 850px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -88,11 +88,5 @@ media  Q */
   .navBar,
   .navLinks {
     flex-direction: column;
-  }
-  .bannarDetails {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
   }
 }
