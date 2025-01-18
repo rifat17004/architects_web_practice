@@ -84,9 +84,9 @@ banner related styles
 
 /* 
 media  Q */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  .navLinks,
-  .navBar {
+@media screen and (max-width: 576px) {
+  .navBar,
+  .navLinks {
     flex-direction: column;
   }
 }
