@@ -5,3 +5,88 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/*
+ shared Styles
+*/
+
+.displayFlex {
+  display: flex;
+}
+.bgPrimary {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.dark1 {
+  color: 131313;
+}
+.dark2 {
+  color: #424242;
+}
+
+.btnPrimry {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #ff900e;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+
+/* 
+header part 
+*/
+
+header {
+}
+
+.navBar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannarContainer,
+.navBar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.navItem {
+  margin-right: 30px;
+  list-style: none;
+}
+.navLink {
+  text-decoration: none;
+}
+
+/* 
+banner related styles
+*/
+
+.bannarDetails {
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bannarTitle {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.bannarProfile {
+  width: 100%;
+}
+
+/* 
+media  Q */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navLinks,
+  .navBar {
+    flex-direction: column;
+  }
+}
