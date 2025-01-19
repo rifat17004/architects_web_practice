@@ -117,7 +117,27 @@ main > section {
   display: flex;
   flex-direction: column;
 }
+/* 
+some fact */
 
+.factCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 241px;
+  height: 241px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+.cart h3 {
+  margin-top: 0px;
+}
 /* 
 media  Q */
 @media screen and (max-width: 576px) {
@@ -130,5 +150,10 @@ media  Q */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
+  }
+  .factCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
   }
 }
