@@ -155,5 +155,10 @@ media  Q */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
+    gap: 5px;
+  }
+  .cart {
+    width: auto;
+    height: auto;
   }
 }
